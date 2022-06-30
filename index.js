@@ -43,7 +43,7 @@ const authConfig = {
   //Set this to true if you need to let users download files which Google Drive has flagged as a virus
   "enable_virus_infected_file_down": false,
   //Set this to true if you want to sort the list by modified time
-  "sort_by_modified_time": true,
+  "sort_by_modified_time": false,
   //Set this to true if you need to let users download deleted files from the current drive
   "include_trashed_files": false, // Then files will be visible at where they were before moving to the trash bin
   //Set this to true if you want to force directories to load. This may cause you to exceed API rate limits
@@ -76,7 +76,7 @@ const authConfig = {
  * web ui 
  */
 const uiConfig = {
-  "theme": "material", // DO NOT set it to classic
+  "theme": "classic", // DO NOT set it to classic
   "dark_mode": false, // true or false
   "title_include_drive_name": true, // Set this to true if you need to add drive name to the page title which will be displayed in browser tab name area (ex: Goindex Extented - Disk 01)
   "title_include_path": "full-path", // full-path | current-directory | or leave it empty
@@ -86,11 +86,11 @@ const uiConfig = {
   "hide_actions_tab": false, // Set this to true if you want to hide the actions tab which contains direct dowload, copy link, open in a new tab button
   "hide_head_md": false, // Set this to true if you need to disable rendering HEAD.md
   "hide_readme_md": false, // Set this to true if you need to disable rendering README.md
-  "helpURL": "", // Provide the URL of the help page(instructions for using the index). Leave this empty if you want to hide the help icon. Providing a URL will open the help page in a new tab. (You can use telegra.ph to write instructions)
-  "footer_text": "© R-Service", // Provide the footer text. Leave this empty if you want to hide it.
+  "helpURL": "https://t.me/rserviceofficialbot", // Provide the URL of the help page(instructions for using the index). Leave this empty if you want to hide the help icon. Providing a URL will open the help page in a new tab. (You can use telegra.ph to write instructions)
+  "footer_text": "© R-Service Official PVT.", // Provide the footer text. Leave this empty if you want to hide it.
   "credits": false, // Set this to true if you like to give credits. Otherwise you can set it to false. (NO BIG DEAL:3)
-  "main_color": "blue-grey", // blue-grey | red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange | brown | grey
-  "accent_color": "blue" // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
+  "main_color": "purple", // blue-grey | red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange | brown | grey
+  "accent_color": "purple" // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
   // blue-grey and blue suit with both light and dark themes
 };
 
