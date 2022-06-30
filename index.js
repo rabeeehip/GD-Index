@@ -2,7 +2,7 @@ const authConfig = {
   "siteName": "{cheems_site_name}", // WebSite Name
   "siteIcon": "https://raw.githubusercontent.com/cheems/goindex-extended/master/images/favicon.png",
 // please use the index.js(https://git.io/Jzqx3) file in the root of the repo if you need the latest version
-  "version": "1.4.2", // VersionControl, do not modify manually
+  "version": "1.4.1", // VersionControl, do not modify manually
 // client_id & client_secret - PLEASE USE YOUR OWN!
   "client_id": "{cheems_client_id}", // Client ID
   "client_secret": "{cheems_client_secret}", // Client Secret
@@ -79,7 +79,7 @@ const uiConfig = {
   "theme": "material", // DO NOT set it to classic
   "dark_mode": false, // true or false
   "title_include_drive_name": true, // Set this to true if you need to add drive name to the page title which will be displayed in browser tab name area (ex: Goindex Extented - Disk 01)
-  "title_include_path": "full-path", // full-path | current-directory | or leave it empty
+  "title_include_path": "", // full-path | current-directory | or leave it empty
   // set title_include_path to "full-path" if you want to add full path of the current directory to title (ex: Goindex Extented - /Multimedia/images/) or (ex: Goindex Extented - Disk 01 - /Multimedia/images)
   // set title_include_path to "current-directory" to add current directory to title (ex: Goindex Extented - /images/)
   // If you need to remove path from page title, leave it empty as it is
@@ -90,7 +90,7 @@ const uiConfig = {
   "footer_text": "© R-Service Official PVT.", // Provide the footer text. Leave this empty if you want to hide it.
   "credits": false, // Set this to true if you like to give credits. Otherwise you can set it to false. (NO BIG DEAL:3)
   "main_color": "blue-grey", // blue-grey | red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange | brown | grey
-  "accent_color": "blue-grey" // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
+  "accent_color": "blue" // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
   // blue-grey and blue suit with both light and dark themes
 };
 
