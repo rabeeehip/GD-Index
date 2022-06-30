@@ -2,7 +2,7 @@ const authConfig = {
   "siteName": "{cheems_site_name}", // WebSite Name
   "siteIcon": "https://raw.githubusercontent.com/cheems/goindex-extended/master/images/favicon.png",
 // please use the index.js(https://git.io/Jzqx3) file in the root of the repo if you need the latest version
-  "version": "1.42", // VersionControl, do not modify manually
+  "version": "1.4.2", // VersionControl, do not modify manually
 // client_id & client_secret - PLEASE USE YOUR OWN!
   "client_id": "{cheems_client_id}", // Client ID
   "client_secret": "{cheems_client_secret}", // Client Secret
@@ -40,7 +40,7 @@ const authConfig = {
   //Set this to true if you need to let users download files which Google Drive has flagged as a virus
   "enable_virus_infected_file_down": false,
   //Set this to true if you want to sort the list by modified time
-  "sort_by_modified_time": false,
+  "sort_by_modified_time": true,
   //Set this to true if you need to let users download deleted files from the current drive
   "include_trashed_files": false, // Then files will be visible at where they were before moving to the trash bin
   //Set this to true if you want to force directories to load. This may cause you to exceed API rate limits
