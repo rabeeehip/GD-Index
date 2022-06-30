@@ -76,7 +76,7 @@ const authConfig = {
  * web ui 
  */
 const uiConfig = {
-  "theme": "classic", // DO NOT set it to classic
+  "theme": "material", // DO NOT set it to classic
   "dark_mode": false, // true or false
   "title_include_drive_name": true, // Set this to true if you need to add drive name to the page title which will be displayed in browser tab name area (ex: Goindex Extented - Disk 01)
   "title_include_path": "full-path", // full-path | current-directory | or leave it empty
