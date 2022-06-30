@@ -1,15 +1,13 @@
 const authConfig = {
-  "siteName": "GoIndex Extended", // WebSite Name
-  "siteIcon": "https://raw.githubusercontent.com/cheems/goindex-extended/master/images/favicon-x.png", //or fevicon-x-light.png
-  "version": "1.4.1", // VersionControl, do not modify manually
-  // client_id & client_secret - PLEASE USE YOUR OWN!
-  "client_id": "", // Client ID
-  "client_secret": "", // Client Secret
-  "refresh_token": "", // Refresh Token
-  "folder_list_url": "", // Folder Id List(Only if you have any folders in roots) - Sample: https://cdn.jsdelivr.net/gh/cheems/goindex-extended@master/sample-files/sample-folder-id-list.txt
-  // Crypt Secret must be 32 characters long - Sample: "1234567890123456abcdefghIJKLMN!*" | don't use these characters (\,/,",') 
-  "crypt_secret": "", // Crypt Secret (Required)* This is used to encrypt file ids
-  /**
+  "siteName": "{cheems_site_name}", // WebSite Name
+  "siteIcon": "https://raw.githubusercontent.com/cheems/goindex-extended/master/images/favicon.png",
+// please use the index.js(https://git.io/Jzqx3) file in the root of the repo if you need the latest version
+  "version": "1.42", // VersionControl, do not modify manually
+// client_id & client_secret - PLEASE USE YOUR OWN!
+  "client_id": "{cheems_client_id}", // Client ID
+  "client_secret": "{cheems_client_secret}", // Client Secret
+  "refresh_token": "{cheems_refresh_token}", // Refresh Token
+/**
     * Set up multiple Drives to be displayed; add multiples by format
     * [id]: It can be team folder id, subfolder id, or "root" (representing the root directory of personal disk);
     * [name]: the displayed name
@@ -22,34 +20,21 @@ const authConfig = {
     * [Note] For the folder whose id is set to the subfolder id, the search function will not be supported (it does not affect other disks).
     */
   // =================== ROOTS ===================
-  "roots": [
+"roots": [
     {
-      id: "root", //you can use folderid other than root but then search wont work
-      name: "Personal Drive",
-
-      /* provide 'username':'password' combinations seperated by commas. 
-       * If you add empty values like this => auth":{"":""} then the site will still ask for authentication but user can enter without entering any data by clicking submit
-       */
-
-      // To enable password protection, uncomment the below code line(remove "//" in the front of the below code line)
-      // auth: {'username_1' : 'password_1', 'username_2' : 'password_2'},
+      id: "{cheems_drive_id}", //you can use folderid other than root but then search wont work
+      name: "{cheems_drive_name}",
+      user: '{cheems_username}',
+      pass: '{cheems_password}',
       protect_file_link: false //true or false
-    },
+    } /* ,
     {
-      id: "drive_id",
-      name: "Personal Drive II",
-      // To enable password protection, uncomment the below line
-      // auth: {'username_1' : 'password_1', 'username_2' : 'password_2'},
-      protect_file_link: false
-    },
-    // You can add more drives like above
-    /*{
         id: "drive_id",
         name: "Personal Drive II",
-        // To enable password protection, uncomment the below line
-        // auth: {'username_1' : 'password_1', 'username_2' : 'password_2'},
+        user: 'username',
+        pass: 'password',
         protect_file_link: false
-      }, */
+      } */
   ],
   // =================== END OF ROOTS ===================  <-- DON'T REMOVE THIS LINE
   //Set this to true if you need to let users download files which Google Drive has flagged as a virus
@@ -99,7 +84,7 @@ const uiConfig = {
   "hide_head_md": false, // Set this to true if you need to disable rendering HEAD.md
   "hide_readme_md": false, // Set this to true if you need to disable rendering README.md
   "helpURL": "", // Provide the URL of the help page(instructions for using the index). Leave this empty if you want to hide the help icon. Providing a URL will open the help page in a new tab. (You can use telegra.ph to write instructions)
-  "footer_text": "Made with <3", // Provide the footer text. Leave this empty if you want to hide it.
+  "footer_text": "© R-Service", // Provide the footer text. Leave this empty if you want to hide it.
   "credits": true, // Set this to true if you like to give credits. Otherwise you can set it to false. (NO BIG DEAL:3)
   "main_color": "blue-grey", // blue-grey | red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange | brown | grey
   "accent_color": "blue" // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
