@@ -86,8 +86,8 @@ const uiConfig = {
   "hide_actions_tab": false, // Set this to true if you want to hide the actions tab which contains direct dowload, copy link, open in a new tab button
   "hide_head_md": false, // Set this to true if you need to disable rendering HEAD.md
   "hide_readme_md": false, // Set this to true if you need to disable rendering README.md
-  "helpURL": "https://t.me/rserviceofficialbot", // Provide the URL of the help page(instructions for using the index). Leave this empty if you want to hide the help icon. Providing a URL will open the help page in a new tab. (You can use telegra.ph to write instructions)
-  "footer_text": "© R-Service Official PVT.", // Provide the footer text. Leave this empty if you want to hide it.
+  "helpURL": "", // Provide the URL of the help page(instructions for using the index). Leave this empty if you want to hide the help icon. Providing a URL will open the help page in a new tab. (You can use telegra.ph to write instructions)
+  "footer_text": "© rabeehip ", // Provide the footer text. Leave this empty if you want to hide it.
   "credits": false, // Set this to true if you like to give credits. Otherwise you can set it to false. (NO BIG DEAL:3)
   "main_color": "blue-grey", // blue-grey | red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange | brown | grey
   "accent_color": "blue" // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
