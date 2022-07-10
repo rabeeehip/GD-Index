@@ -5482,13 +5482,13 @@
 
 if (UI.dark_mode) {
   document.write('<meta name="theme-color" content="#273139">');
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/mdui_v2_dark.min.css">');
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/nexmoe_v2_dark.min.css">');
+  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/css/mdui_v2_dark.min.css">');
+  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/css/nexmoe_v2_dark.min.css">');
 } else {
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/mdui_v2.min.css">');
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/nexmoe_v2.min.css">');
+  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/css/mdui_v2.min.css">');
+  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/css/nexmoe_v2.min.css">');
 }
-document.write('<script src="//rawcdn.githack.com/rabeehip/GD-Index/master/js/mdui.min.js"></script>');
+document.write('<script src="//rawcdn.githack.com/rabeehip/GD-Index/js/mdui.min.js"></script>');
 
 // Players
 // -- DPlayer
@@ -6188,8 +6188,8 @@ function file_code(path) {
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
-<script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/master/js/ace.js"></script>
-<script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/master/js/ext-language_tools.js"></script>
+<script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/js/ace.js"></script>
+<script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/js/ext-language_tools.js"></script>
 	`;
   $("#content").html(content);
   $.get(path, function (data) {
