@@ -5488,7 +5488,7 @@ if (UI.dark_mode) {
   document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/mdui_v2.min.css">');
   document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/nexmoe_v2.min.css">');
 }
-document.write('<script src="//rawcdn.githack.com/cheems/goindex-extended/295ceaf2d64b2cb8578b21c0313d75b7bc8738a1/js/mdui.min.js"></script>');
+document.write('<script src="//rawcdn.githack.com/rabeehip/GD-Index/master/js/mdui.min.js"></script>');
 
 // Players
 // -- DPlayer
@@ -5559,7 +5559,7 @@ function init() {
   if (UI.credits) {
     html += `
     <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
-      <a href="https://github.com/cheems/goindex-extended" target="_blank">
+      <a href="https://github.com/rabeehip/GD-Index" target="_blank">
         <img src="https://img.shields.io/static/v1?label=cheems&amp;message=goindex-extended&amp;color=1E89F2&amp;labelColor=374455&amp;logo=github" alt="cheems - goindex-extended">
       </a>
     </div>
@@ -6188,8 +6188,8 @@ function file_code(path) {
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
-<script src="//cdn.jsdelivr.net/gh/cheems/goindex-extended/js/ace.js"></script>
-<script src="//cdn.jsdelivr.net/gh/cheems/goindex-extended/js/ext-language_tools.js"></script>
+<script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/master/js/ace.js"></script>
+<script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/master/js/ext-language_tools.js"></script>
 	`;
   $("#content").html(content);
   $.get(path, function (data) {
