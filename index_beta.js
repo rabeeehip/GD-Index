@@ -1,15 +1,16 @@
 const authConfig = {
-  "siteName": "GoIndex Extended", // WebSite Name
-  "siteIcon": "https://raw.githubusercontent.com/cheems/goindex-extended/master/images/favicon-x.png", //or fevicon-x-light.png
+  "siteName": "{cheems_site_name}", // WebSite Name
+  "siteIcon": "https://raw.githubusercontent.com/cheems/goindex-extended/master/images/favicon.png",
+// please use the index.js(https://git.io/Jzqx3) file in the root of the repo if you need the latest version
   "version": "1.4.1", // VersionControl, do not modify manually
-  // client_id & client_secret - PLEASE USE YOUR OWN!
-  "client_id": "", // Client ID
-  "client_secret": "", // Client Secret
-  "refresh_token": "", // Refresh Token
+// client_id & client_secret - PLEASE USE YOUR OWN!
+  "client_id": "{cheems_client_id}", // Client ID
+  "client_secret": "{cheems_client_secret}", // Client Secret
+  "refresh_token": "{cheems_refresh_token}", // Refresh Token
   "folder_list_url": "", // Folder Id List(Only if you have any folders in roots) - Sample: https://cdn.jsdelivr.net/gh/cheems/goindex-extended@master/sample-files/sample-folder-id-list.txt
   // Crypt Secret must be 32 characters long - Sample: "1234567890123456abcdefghIJKLMN!*" | don't use these characters (\,/,",') 
   "crypt_secret": "", // Crypt Secret (Required)* This is used to encrypt file ids
-  /**
+/**
     * Set up multiple Drives to be displayed; add multiples by format
     * [id]: It can be team folder id, subfolder id, or "root" (representing the root directory of personal disk);
     * [name]: the displayed name
@@ -24,32 +25,19 @@ const authConfig = {
   // =================== ROOTS ===================
   "roots": [
     {
-      id: "root", //you can use folderid other than root but then search wont work
-      name: "Personal Drive",
-
-      /* provide 'username':'password' combinations seperated by commas. 
-       * If you add empty values like this => auth":{"":""} then the site will still ask for authentication but user can enter without entering any data by clicking submit
-       */
-
-      // To enable password protection, uncomment the below code line(remove "//" in the front of the below code line)
-      // auth: {'username_1' : 'password_1', 'username_2' : 'password_2'},
+      id: "{cheems_drive_id}", //you can use folderid other than root but then search wont work
+      name: "{cheems_drive_name}",
+      user: '{cheems_username}',
+      pass: '{cheems_password}',
       protect_file_link: false //true or false
-    },
+    } /* ,
     {
-      id: "drive_id",
-      name: "Personal Drive II",
-      // To enable password protection, uncomment the below line
-      // auth: {'username_1' : 'password_1', 'username_2' : 'password_2'},
-      protect_file_link: false
-    },
-    // You can add more drives like above
-    /*{
         id: "drive_id",
         name: "Personal Drive II",
-        // To enable password protection, uncomment the below line
-        // auth: {'username_1' : 'password_1', 'username_2' : 'password_2'},
+        user: 'username',
+        pass: 'password',
         protect_file_link: false
-      }, */
+      } */
   ],
   // =================== END OF ROOTS ===================  <-- DON'T REMOVE THIS LINE
   //Set this to true if you need to let users download files which Google Drive has flagged as a virus
@@ -89,9 +77,9 @@ const authConfig = {
  */
 const uiConfig = {
   "theme": "material", // DO NOT set it to classic
-  "dark_mode": true, // true or false
-  "title_include_drive_name": false, // Set this to true if you need to add drive name to the page title which will be displayed in browser tab name area (ex: Goindex Extented - Disk 01)
-  "title_include_path": "", // full-path | current-directory | or leave it empty
+  "dark_mode": false, // true or false
+  "title_include_drive_name": true, // Set this to true if you need to add drive name to the page title which will be displayed in browser tab name area (ex: Goindex Extented - Disk 01)
+  "title_include_path": "full-path", // full-path | current-directory | or leave it empty
   // set title_include_path to "full-path" if you want to add full path of the current directory to title (ex: Goindex Extented - /Multimedia/images/) or (ex: Goindex Extented - Disk 01 - /Multimedia/images)
   // set title_include_path to "current-directory" to add current directory to title (ex: Goindex Extented - /images/)
   // If you need to remove path from page title, leave it empty as it is
@@ -99,8 +87,8 @@ const uiConfig = {
   "hide_head_md": false, // Set this to true if you need to disable rendering HEAD.md
   "hide_readme_md": false, // Set this to true if you need to disable rendering README.md
   "helpURL": "", // Provide the URL of the help page(instructions for using the index). Leave this empty if you want to hide the help icon. Providing a URL will open the help page in a new tab. (You can use telegra.ph to write instructions)
-  "footer_text": "Made with <3", // Provide the footer text. Leave this empty if you want to hide it.
-  "credits": true, // Set this to true if you like to give credits. Otherwise you can set it to false. (NO BIG DEAL:3)
+  "footer_text": "© rabeehip", // Provide the footer text. Leave this empty if you want to hide it.
+  "credits": flase, // Set this to true if you like to give credits. Otherwise you can set it to false. (NO BIG DEAL:3)
   "main_color": "blue-grey", // blue-grey | red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange | brown | grey
   "accent_color": "blue" // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
   // blue-grey and blue suit with both light and dark themes
@@ -197,11 +185,10 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="//cdn.jsdelivr.net/gh/cheems/goindex-extended@4d1427558a21603e7c7e7dc986a154a9560f4835/app_beta.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/master/app.js"></script>
 </head>
 <body>
-</body>
-</html>
+</bod>
 `;
 };
 
