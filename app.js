@@ -5482,11 +5482,11 @@
 
 if (UI.dark_mode) {
   document.write('<meta name="theme-color" content="#273139">');
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/b46bb643bb1c1314b669142e5e62d96a877b952b/css/mdui_v2_dark.min.css">');
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/f9af6b2192974a4a9c1b222efed8d29ca6cd1927/css/nexmoe_v2_dark.min.css">');
+  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/mdui_v2_dark.min.css">');
+  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/nexmoe_v2_dark.min.css">');
 } else {
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/b46bb643bb1c1314b669142e5e62d96a877b952b/css/mdui_v2.min.css">');
-  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/cheems/goindex-extended/f9af6b2192974a4a9c1b222efed8d29ca6cd1927/css/nexmoe_v2.min.css">');
+  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/mdui_v2.min.css">');
+  document.write('<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/nexmoe_v2.min.css">');
 }
 document.write('<script src="//rawcdn.githack.com/cheems/goindex-extended/295ceaf2d64b2cb8578b21c0313d75b7bc8738a1/js/mdui.min.js"></script>');
 
