@@ -1,37 +1,7 @@
-## Special Note (temp - NO OFFENCE):
-
-<img src="https://i.imgur.com/UQLeCBk.jpg" data-canonical-src="https://i.imgur.com/UQLeCBk.jpg" height="400" />
-
-_**Sri Lankan Worker at a Pakistani company, Priyantha Kumara was brutally tortured and burnt alive by a group of people of Pakistan. We condemn this tragic and ghastly murder! Praying for his departed soul and the family he leaves behind. WE DEMAND JUSTICE FOR PRIYANTHA.
-[#JusticeForPriyantha](https://twitter.com/search?q=%23JusticeforPriyantha)**_
-
-**_No Religion is Higher than Humanity - [Abdul Sattar Edhi](https://en.wikipedia.org/wiki/Abdul_Sattar_Edhi)_**
-
-**_[#JusticeForPriyantha](https://twitter.com/search?q=%23JusticeforPriyantha)_**
-
-_Image credit goes to **[@project_de_marco](https://www.instagram.com/project_de_marco/)**_
-
----
-
-![Preview](https://raw.githubusercontent.com/cheems/goindex-extended/master/images/preview.png)
-# GoIndex Extended - Google Drive Index
-
-[![Author: Cheems](https://img.shields.io/badge/Author-cheems-blue.svg)](https://github.com/cheems)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
-[![Repo Size](https://img.shields.io/github/repo-size/cheems/goindex-extended?color=2fc29d&label=Repo%20Size)]()
-[![Last Commit](https://img.shields.io/github/last-commit/cheems/goindex-extended?label=Last%20Commit)]()
-[![Built with Cloudflare Workers](https://img.shields.io/badge/Built_with-Cloudflare%20Workers-1f425f?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAABmJLR0QA/wD/AP+gvaeTAAADOUlEQVQ4jXVUz2scVRz/vNnN7qY16TY1LmJbYTHGUEIMafGgpTnoQUV7sfoHSGvv/qjSy2KhNIV4EBFjqYIo6sGIePJiEUGw2hpLU0xLYhOsoY0l1U12Z74/e5jsZCPtwDvMm/c+8/n1XsD/nvonw4fveWbiJbjtbM15vHKNfju2I+rI29rUTTcbKz575qv2vVH7S/zR8JOB5D2/fnELEKoAqjCtho7OvdgyyHBU4V6F2h6ofUFfPzFyVzCUNx3Nb+3ONadO98P9JoQAIYCbKDz4XDBid1G4CFwkb6bjdwRLJvfuh/moiyA4bZL5ny5DOAVTQnB5KHQNXVwDAkThrPviz3c/vwHMz4zmTeVEulABE9D0Z0NwWYC22MUobN9X9kSlxQ4iMJKTPjHSkYElS8lhsDzi3JKgcE6+hNrxjJ0kgMQ7ctv2TDkznAXOCoj2N6L4EAAE/+bxruZKcgVqFVeFqwGqcQ6hv3TowF+Y2TUFSQZhApgCiG40z7/bBZdONwPSsZRE3Bc16vFbLlLJJIrA2N7vfGV6IYSagVHLpAoBtHpfrvex341Tmalk7S3EOBJB5KCzprTTjxpMTrRMDYMHJmH2awamhMK2voedVVs/dxE4y8t5ZwXW5LkqoIZQCmFDZSQJUEplmgKONE1oKlMdboYILKfWu6NQohz/E7+dtf+XD14AxyMZMyHEf09dhkpurR5psiynw9JYf1exyFdcrWLEMFYIsbjZcOWpyT9QmroAagysswqLK+c+7nFIEZoG4GZLWpC+qPfITN1Jj2lM0EQgRDCWvLG+g83TB5GsDqz7JWgu/LzoSkVwZj7AUut5c/nfCAC6G/MTmsisJgQlgZHAFKNIVo6C40yeC8/TtfNDGUhqzUz39eVTWWlDDWLCNWWBsUDFUH706TnE9QegaYIwxersjw2o5rIERWAsr4cPwRvOZuX48qeudsHEgI4Sbd6+q9LOyphmafHSQFu34KI/9IzVv73jraER3nBzu3f3/qto3ipnXrnj1qXvS1BLK5GeSwlKr971Cto5vvpdCNFrnVvvX4TEcxCag9CcNP47m9z4s8gki8pyFaJnofpieZzPte+/DbyhqHE2i7F2AAAAAElFTkSuQmCC)](https://workers.cloudflare.com/)
-[![Written in JavaScript](https://img.shields.io/badge/Written_in-JavaScript-000?logo=javascript&logoColor=000&labelColor=F7DF1E)](https://www.javascript.com/)
-
+## G-Drive Index
 
 Combining the power of [Cloudflare Workers](https://workers.cloudflare.com/) and [Google Drive](https://www.google.com/drive/) will allow you to index your files on the browser on Cloudflare Workers.
 
-## 🙈 Demo
-
-- **🖤 Dark Theme**: _https://dark-demo.dudoo.workers.dev_
-- **🤍 Light Theme**: _https://light-demo.dudoo.workers.dev_
-
-<h2><details>
 <summary>📸 Screenshots</summary>
 
 ![Screenshot-1](https://raw.githubusercontent.com/cheems/goindex-extended/master/images/ss-1.png)
@@ -171,4 +141,5 @@ If you are comfortable reading comments in the code, here you go: [goindex-exten
 
 ## ⚖ LICENSE
 
-**_[GoIndex - Extended](https://github.com/cheems/goindex-extended) by [Cheems(AKA Dudu)](https://github.com/cheems/) is licensed under the [MIT License](https://opensource.org/licenses/MIT), which you can find in the [goindex-extended/LICENSE](https://github.com/cheems/goindex-extended/blob/master/LICENSE) file._**
+**_[GoIndex - Extended](https://github.com/rabeehip/GD-Index)
+) by [Cheems(AKA Dudu)](https://github.com/rabeehip/GD-Index) is licensed under the [MIT License](https://opensource.org/licenses/MIT), which you can find in the [goindex-extended/LICENSE](https://github.com/cheems/goindex-extended/blob/master/LICENSE) file._**
