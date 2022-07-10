@@ -188,6 +188,7 @@ function html(current_drive_order = 0, model = {}) {
   <script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/master/app.js"></script>
 </head>
 <body>
+</html>
 </bod>
 `;
 };
