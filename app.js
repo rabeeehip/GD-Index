@@ -5781,8 +5781,6 @@ function list(path) {
   $("#list").html(
     `<div class="mdui-progress"><div class="mdui-progress-indeterminate"></div></div>`
   );
-  $("#readme_md").hide().html("");
-  $("#head_md").hide().html("");
   function successResultCallback(res, path, prevReqParams) {
     $("#list")
       .data("nextPageToken", res.nextPageToken)
@@ -5988,8 +5986,6 @@ function render_search_result_list() {
   $("#list").html(
     `<div class="mdui-progress"><div class="mdui-progress-indeterminate"></div></div>`
   );
-  $("#readme_md").hide().html("");
-  $("#head_md").hide().html("");
   function searchSuccessCallback(res, prevReqParams) {
     $("#list")
       .data("nextPageToken", res.nextPageToken)
