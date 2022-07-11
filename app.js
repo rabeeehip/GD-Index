@@ -6213,7 +6213,7 @@ function file_code(path) {
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
 <script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/js/ace.js"></script>
-<script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/js/ext-language_tools.js"></script>
+<script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/master/js/ext-language_tools.js"></script>
 	`;
   $("#content").html(content);
   $.get(path, function (data) {
@@ -6278,10 +6278,6 @@ function file_video(path) {
   <div class="mdui-textfield">
 	  <label class="mdui-textfield-label">File Name</label>
 	  <input class="mdui-textfield-input" type="text" value="${file_name}"/>
-  </div>
-    <div class="mdui-textfield">
-	  <label class="mdui-textfield-label">File Size</label>
-	  <input class="mdui-textfield-input" type="text" value="800MB"/>
   </div>
 	<div class="mdui-textfield">
 	  <label class="mdui-textfield-label">Download Link</label>
