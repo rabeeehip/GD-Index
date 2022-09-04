@@ -5705,7 +5705,7 @@ function nav(path) {
                 <i class="mdui-icon material-icons">search</i>
             </button>
             <form id="search_bar_form" method="get" action="/${cur}:search">
-            <input class="mdui-textfield-input" type="text" name="q" placeholder="Search in current index" value="${search_text}"/>
+            <input class="mdui-textfield-input" type="text" name="q" placeholder="Search here..." value="${search_text}"/>
             </form>
             <button class="mdui-textfield-close mdui-btn mdui-btn-icon" onclick="$('.mdui-select').removeClass('hidedropdown');"><i class="mdui-icon material-icons">close</i></button>
         </div>
@@ -5773,7 +5773,7 @@ function list(path) {
 	 <div class="mdui-row"> 
 	  <ul id="list" class="mdui-list"> 
 	  </ul> 
-	  <div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">Total <span class="number"></span> item(s)</div>
+	  <div id="count" class="mdui-hidden mdui-center mdui-text-center mdui-m-b-3 mdui-typo-subheading mdui-text-color-blue-grey-500">Total <span class="number"></span> items</div>
 	 </div>
 	`;
   $("#content").html(content);
