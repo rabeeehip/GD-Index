@@ -7,7 +7,7 @@ const authConfig = {
   "client_id": "{cheems_client_id}", // Client ID
   "client_secret": "{cheems_client_secret}", // Client Secret
   "refresh_token": "{cheems_refresh_token}", // Refresh Token
-  "folder_list_url": "", // Folder Id List(Only if you have any folders in roots) - Sample: https://cdn.jsdelivr.net/gh/cheems/goindex-extended@master/sample-files/sample-folder-id-list.txt
+  "folder_list_url": "", // Folder Id List(Only if you have any folders in roots) - Sample: https://cdn.jsdelivr.net/gh/rabeehip/GD-Index@master/sample-files/sample-folder-id-list.txt
   // Crypt Secret must be 32 characters long - Sample: "1234567890123456abcdefghIJKLMN!*" | don't use these characters (\,/,",') 
   "crypt_secret": "", // Crypt Secret (Required)* This is used to encrypt file ids
 /**
@@ -80,15 +80,15 @@ const uiConfig = {
   "theme": "material", // DO NOT set it to classic
   "dark_mode": false, // true or false
   "title_include_drive_name": true, // Set this to true if you need to add drive name to the page title which will be displayed in browser tab name area (ex: Goindex Extented - Disk 01)
-  "title_include_path": "full-path", // full-path | current-directory | or leave it empty
+  "title_include_path": "current-directory", // full-path | current-directory | or leave it empty
   // set title_include_path to "full-path" if you want to add full path of the current directory to title (ex: Goindex Extented - /Multimedia/images/) or (ex: Goindex Extented - Disk 01 - /Multimedia/images)
   // set title_include_path to "current-directory" to add current directory to title (ex: Goindex Extented - /images/)
   // If you need to remove path from page title, leave it empty as it is
   "hide_actions_tab": false, // Set this to true if you want to hide the actions tab which contains direct dowload, copy link, open in a new tab button
   "hide_head_md": false, // Set this to true if you need to disable rendering HEAD.md
   "hide_readme_md": false, // Set this to true if you need to disable rendering README.md
-  "helpURL": "", // Provide the URL of the help page(instructions for using the index). Leave this empty if you want to hide the help icon. Providing a URL will open the help page in a new tab. (You can use telegra.ph to write instructions)
-  "footer_text": "R-Service Official PVT.", // Provide the footer text. Leave this empty if you want to hide it.
+  "helpURL": "https://t.me/rserviceofficialbot", // Provide the URL of the help page(instructions for using the index). Leave this empty if you want to hide the help icon. Providing a URL will open the help page in a new tab. (You can use telegra.ph to write instructions)
+  "footer_text": "© 2022 ‧ R-Service. All rights reserved ❤️", // Provide the footer text. Leave this empty if you want to hide it.
   "credits": false, // Set this to true if you like to give credits. Otherwise you can set it to false. (NO BIG DEAL:3)
   "main_color": "blue-grey", // blue-grey | red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange | brown | grey
   "accent_color": "blue" // red | pink | purple | deep-purple | indigo | blue | light-blue | cyan | teal | green | light-green | lime | yellow | amber | orange | deep-orange
