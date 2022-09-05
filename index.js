@@ -1,6 +1,6 @@
 const authConfig = {
   "siteName": "{cheems_site_name}", // WebSite Name
-  "siteIcon": "https://raw.githubusercontent.com/cheems/goindex-extended/master/images/favicon.png",
+  "siteIcon": "https://raw.githubusercontent.com/rabeehip/GD-Index/master/images/favicon.png",
 // please use the index.js(https://git.io/Jzqx3) file in the root of the repo if you need the latest version
   "version": "1.4.1", // VersionControl, do not modify manually
 // client_id & client_secret - PLEASE USE YOUR OWN!
