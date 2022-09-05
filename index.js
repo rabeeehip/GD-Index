@@ -79,7 +79,7 @@ const authConfig = {
 const uiConfig = {
   "theme": "material", // DO NOT set it to classic
   "dark_mode": false, // true or false
-  "title_include_drive_name": true, // Set this to true if you need to add drive name to the page title which will be displayed in browser tab name area (ex: Goindex Extented - Disk 01)
+  "title_include_drive_name": false, // Set this to true if you need to add drive name to the page title which will be displayed in browser tab name area (ex: Goindex Extented - Disk 01)
   "title_include_path": "current-directory", // full-path | current-directory | or leave it empty
   // set title_include_path to "full-path" if you want to add full path of the current directory to title (ex: Goindex Extented - /Multimedia/images/) or (ex: Goindex Extented - Disk 01 - /Multimedia/images)
   // set title_include_path to "current-directory" to add current directory to title (ex: Goindex Extented - /images/)
