@@ -29,7 +29,7 @@ const authConfig = {
       name: "{cheems_drive_name}",
       user: '{cheems_username}',
       pass: '{cheems_password}',
-      //auth: {'rabeehip' : 'kingrabeeh008#'},      
+      //auth: {'rabeehip' : 'rabeeh#'},      
       protect_file_link: true //true or false
     } /* ,
     {
