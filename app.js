@@ -5487,30 +5487,30 @@ if (UI.dark_mode) {
 }
 if (UI.dark_mode) {
   document.write(
-    '<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/mdui_v2_dark.min.css">'
+    '<link rel="stylesheet" href="//rawcdn.githack.com/rabeeehip/GD-Index/master/css/mdui_v2_dark.min.css">'
   );
 } else {
   document.write(
-    '<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/mdui_v2.min.css">'
+    '<link rel="stylesheet" href="//rawcdn.githack.com/rabeeehip/GD-Index/master/css/mdui_v2.min.css">'
   );
 }
 if (UI.dark_mode) {
   document.write(
-    '<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/nexmoe_v2_dark.min.css">'
+    '<link rel="stylesheet" href="//rawcdn.githack.com/rabeeehip/GD-Index/master/css/nexmoe_v2_dark.min.css">'
   );
 } else {
   document.write(
-    '<link rel="stylesheet" href="//rawcdn.githack.com/rabeehip/GD-Index/master/css/nexmoe_v2.min.css">'
+    '<link rel="stylesheet" href="//rawcdn.githack.com/rabeeehip/GD-Index/master/css/nexmoe_v2.min.css">'
   );
 }
 document.write(
-  '<script src="//rawcdn.githack.com/rabeehip/GD-Index/master/js/mdui.min.js"></script>'
+  '<script src="//rawcdn.githack.com/rabeeehip/GD-Index/master/js/mdui.min.js"></script>'
 );
 document.write(
-  '<script src="//rawcdn.githack.com/rabeehip/GD-Index/master/js/flv.min.js"></script>'
+  '<script src="//rawcdn.githack.com/rabeeehip/GD-Index/master/js/flv.min.js"></script>'
 );
 document.write(
-  '<script src="//rawcdn.githack.com/rabeehip/GD-Index/master/js/DPlayer.min.js"></script>'
+  '<script src="//rawcdn.githack.com/rabeeehip/GD-Index/master/js/DPlayer.min.js"></script>'
 );
 document.write(
   '<script src="//cdn.jsdelivr.net/npm/marked@4.0.0/marked.min.js"></script>'
@@ -5583,7 +5583,7 @@ function init() {
   if (UI.credits) {
     html += `
     <div style="margin-bottom: 20px" class="mdui-center mdui-text-center">
-      <a href="https://github.com/rabeehip/GD-Index" target="_blank">
+      <a href="https://github.com/rabeeehip/GD-Index" target="_blank">
         <img src="https://img.shields.io/static/v1?label=cheems&amp;message=goindex-extended&amp;color=1E89F2&amp;labelColor=374455&amp;logo=github" alt="cheems - goindex-extended">
       </a>
     </div>
@@ -6212,8 +6212,8 @@ function file_code(path) {
 </div>
 <a href="${href}" class="mdui-fab mdui-fab-fixed mdui-ripple mdui-color-theme-accent"><i class="mdui-icon material-icons">file_download</i></a>
 
-<script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/js/ace.js"></script>
-<script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/js/ext-language_tools.js"></script>
+<script src="//cdn.jsdelivr.net/gh/rabeeehip/GD-Index/js/ace.js"></script>
+<script src="//cdn.jsdelivr.net/gh/rabeeehip/GD-Index/js/ext-language_tools.js"></script>
 	`;
   $("#content").html(content);
   $.get(path, function (data) {
