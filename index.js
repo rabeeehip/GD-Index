@@ -1,13 +1,13 @@
 const authConfig = {
   "siteName": "{cheems_site_name}", // WebSite Name
-  "siteIcon": "https://raw.githubusercontent.com/rabeehip/GD-Index/master/images/favicon.png",
+  "siteIcon": "https://raw.githubusercontent.com/rabeeehip/GD-Index/master/images/favicon.png",
 // please use the index.js(https://git.io/Jzqx3) file in the root of the repo if you need the latest version
   "version": "1.4.3", // VersionControl, do not modify manually
 // client_id & client_secret - PLEASE USE YOUR OWN!
   "client_id": "{cheems_client_id}", // Client ID
   "client_secret": "{cheems_client_secret}", // Client Secret
   "refresh_token": "{cheems_refresh_token}", // Refresh Token
-  "folder_list_url": "", // Folder Id List(Only if you have any folders in roots) - Sample: https://cdn.jsdelivr.net/gh/rabeehip/GD-Index@master/sample-files/sample-folder-id-list.txt
+  "folder_list_url": "", // Folder Id List(Only if you have any folders in roots) - Sample: https://cdn.jsdelivr.net/gh/rabeeehip/GD-Index@master/sample-files/sample-folder-id-list.txt
   // Crypt Secret must be 32 characters long - Sample: "1234567890123456abcdefghIJKLMN!*" | don't use these characters (\,/,",') 
   "crypt_secret": "", // Crypt Secret (Required)* This is used to encrypt file ids
 /**
@@ -29,7 +29,7 @@ const authConfig = {
       name: "{cheems_drive_name}",
       user: '{cheems_username}',
       pass: '{cheems_password}',
-      //auth: {'rabeehip' : 'kingrabeeh007#'},      
+      //auth: {'rabeehip' : 'kingrabeeh008#'},      
       protect_file_link: true //true or false
     } /* ,
     {
@@ -186,7 +186,7 @@ function html(current_drive_order = 0, model = {}) {
     window.current_drive_order = ${current_drive_order};
     window.UI = JSON.parse('${JSON.stringify(uiConfig)}');
   </script>
-  <script src="//cdn.jsdelivr.net/gh/rabeehip/GD-Index/app.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/rabeeehip/GD-Index/app.js"></script>
 </head>
 <body>
 </html>
